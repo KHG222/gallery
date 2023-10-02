@@ -1,0 +1,82 @@
+*{
+	background-color:grey;
+	color:#980000;
+	font-family:"verdana";
+}
+button{
+	font-family:"Courier New";
+	border:5px solid black;
+	text-transform:uppercase;
+	padding:16px 32px;
+	font-size:16px;
+	margin:4px 2px;
+	border-radius:10px;
+	background-color:#980000;
+}
+.headerimagebig{
+	margin-left:155px;
+}
+.backbutton{
+	height:30px;
+	width:100px;
+	padding:0px;
+}
+.imagetext{
+	position:absolute;
+	bottom:50px
+}
+.column{
+	float:left;
+	width:33%;
+	border:5px solid 
+}
+.row:after{
+	content:"";
+	display:grid;
+	clear:both;
+	grid-template-columns:1fr 1fr 1fr;
+}
+.height{
+	height:612px;
+	width:491px;
+}
+.length{
+	height:500px;
+	width:500px;
+}
+.heightslide{
+	height:350px;
+	width:300px;
+}
+.lengthslide{
+	height:454px;
+	width:1000px;
+}
+.lengthart{
+	height:350px;
+	width:500px;
+}
+.lengthlandscape{
+	height:500px;
+	width:700px;
+}
+ul{
+	position:center;
+	margin:0px;
+}
+.footersmall{
+	height:141.84px;
+	width:465px;
+	margin:0px;
+}
+		height:94.56px;
+	width:310px;
+hr{
+	background-color:#980000;
+	border-color:red;
+	height:2px;
+	border-width:4px;
+}
+hr.mini{
+	width:75%;
+}
